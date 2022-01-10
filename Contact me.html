@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form to contact me</title>
+  </head>
+  <body style="background-color:hsla(9, 100%, 35%, 0.5)">
+    <center>
+      <hr size="3" color="violet">
+      <hr size="3" color="aqua">
+      <h1 style="background-color:pink">🌻Contact me🌻</h1>
+        <hr size="3" color="aqua">
+      <hr size="3" color="violet">
+    <form action="mailto:mirandamint45@gmail.com" method="post" enctype="text/plain"> <!--enctype is to encode our form so we can
+      send it to be understandable
+    in action we can put for example: index.html so we our guests click on submit they are gonna appear on thata page
+  but by putting mailto:anEmailAddress we can send a mail to that email address-->
+      <label>Yor name:</label>
+      <input type="text" name="yourName" value="">
+      <br><br>
+      <label>Today's Date:</label>
+      <input type="date" name="Date" value="">
+      <br><br>
+      <label>Your message:</label><br>
+      <textarea name="yourMessage" rows="4" cols="30"></textarea>
+      <br><br>
+      <label>Your favorite color:</label>
+      <input type="color" name="favoriteColor" value="">
+      <br><br>
+      <label>Your homework file:</label>
+      <input type="file" name="File" value="">
+      <br><br>
+      <label>Tick the drinks you like:</label>
+      <ol>
+        <li><label>Chocolate</label>
+        <input type="checkbox" name="Chocolate" value=""></li>
+        <li><label>Coffee</label>
+        <input type="checkbox" name="Coffee" value=""></li>
+        <li><label>Tea</label>
+        <input type="checkbox" name="Tea" value=""></li>
+      </ol>
+      <label>Password:</label>
+      <input type="password" name="password" value="">
+      <br><br>
+      <label>Your phone number:</label>
+      <input type="tel" name="telephoneNumber" value="">
+      <br><br>
+      <label>Paste your favorite's song link:</label>
+      <input type="url" name="favoriteSong" value="">
+      <br><br>
+      <label for="number">Favorite number from 1 to 10:</label>
+      <input type="range" name="FavoriteNumber" value="0" min="1" max="10" step="1">
+      <output name="result" for="number"></output>
+      <br><br>
+      <input type="submit" name="">
+      <br><br>
+
+
+
+    </form>
+      </center>
+  </body>
+</html>
